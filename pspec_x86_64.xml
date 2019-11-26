@@ -1,0 +1,36 @@
+<PISI>
+    <Source>
+        <Name>python-patch</Name>
+        <Packager>
+            <Name>Marc-André Renaud</Name>
+            <Email>ma.renaud@slashvoid.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Patch utility to apply unified diffs</Summary>
+        <Description xml:lang="en">Patch utility to apply unified diffs
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-patch</Name>
+        <Summary xml:lang="en">Patch utility to apply unified diffs</Summary>
+        <Description xml:lang="en">Patch utility to apply unified diffs
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/__pycache__/patch.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/patch-1.16-py3.6.egg-info</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/patch.py</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2019-09-09</Date>
+            <Version>1.16</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Marc-André Renaud</Name>
+            <Email>ma.renaud@slashvoid.com</Email>
+        </Update>
+    </History>
+</PISI>
